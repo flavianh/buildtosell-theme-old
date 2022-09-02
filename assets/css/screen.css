@@ -40,7 +40,7 @@ production stylesheet in assets/built/screen.css
     --color-secondary-text: #5f5f5f;
     --color-border: #e1e1e1;
     --color-wash: #e5eff5;
-    --color-darkmode: #151719;
+    --color-darkmode: #121212;
     --color-secondary-text-darkmode: #808080;
 
     /*
@@ -92,7 +92,7 @@ production stylesheet in assets/built/screen.css
 
 .site-header {
     position: relative;
-    color: #fff;
+    color: #FCFCFC;
     background: var(--ghost-accent-color);
 }
 
@@ -212,7 +212,7 @@ body:not(.has-cover) .site-header-content:not(.left-aligned) {
 .has-cover .site-description {
     font-size: 3.2rem;
     letter-spacing: -0.005em;
-    color: #fff;
+    color: #FCFCFC;
 }
 
 .has-cover :is(.site-logo, .site-title) + .site-description {
@@ -256,12 +256,12 @@ body:not(.has-cover) .site-header-content:not(.left-aligned) {
     padding-bottom: min(24px, 3.6vmin);
     font-size: 1.6rem;
     line-height: 1.3em;
-    background-color: #fff;
+    background-color: #FCFCFC;
 }
 
 .has-cover:not(.home-template) .gh-head {
     background-color: var(--ghost-accent-color);
-    color: #fff;
+    color: #FCFCFC;
 }
 
 .home-template.has-cover .gh-head {
@@ -271,7 +271,7 @@ body:not(.has-cover) .site-header-content:not(.left-aligned) {
     left: 0;
     z-index: 2000;
     background-color: transparent;
-    color: #fff;
+    color: #FCFCFC;
 }
 
 .gh-head a {
@@ -310,7 +310,7 @@ body:not(.has-cover) .site-header-content:not(.left-aligned) {
 }
 
 .has-cover .gh-head-logo {
-    color: #fff;
+    color: #FCFCFC;
 }
 
 .no-logo .gh-head-logo {
@@ -408,13 +408,13 @@ body:not(.has-cover) .site-header-content:not(.left-aligned) {
     letter-spacing: -0.005em;
     font-size: 1.5rem;
     border-radius: 6px;
-    color: #fff;
+    color: #FCFCFC;
     background: var(--ghost-accent-color);
 }
 
 .has-cover .gh-head-button {
     color: var(--color-darkgrey);
-    background: #fff;
+    background: #FCFCFC;
 }
 
 
@@ -478,7 +478,7 @@ body:not(.has-cover) .site-header-content:not(.left-aligned) {
 }
 
 .has-cover .gh-burger-box {
-    color: #fff;
+    color: #FCFCFC;
 }
 
 .gh-burger-inner {
@@ -727,7 +727,7 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
     gap: 4px;
     font-size: 1.5rem;
     font-weight: 600;
-    color: #fff;
+    color: #FCFCFC;
 }
 
 .post-card-content-link {
@@ -1488,7 +1488,7 @@ iframe.instagram-media + script + :not([id]) {
     margin: 0 -4px;
     width: min(56px, 13.6vmin);
     height: min(56px, 13.6vmin);
-    border: #fff 2px solid;
+    border: #FCFCFC 2px solid;
     border-radius: 50%;
     background-color: var(--color-border);
 }
@@ -1535,7 +1535,7 @@ iframe.instagram-media + script + :not([id]) {
     padding: 5px 5px 5px 15px;
     font-size: 1.7rem;
     color: var(--color-secondary-text);
-    background: #fff;
+    background: #FCFCFC;
     border: 1px solid var(--color-border);
     border-radius: 8px;
     transition: border-color 0.2s;
@@ -1548,7 +1548,7 @@ iframe.instagram-media + script + :not([id]) {
 .footer-cta-button span {
     display: inline-block;
     padding: 9px 15px;
-    color: #fff;
+    color: #FCFCFC;
     font-size: 1.6rem;
     font-weight: 600;
     letter-spacing: -0.005em;
@@ -1809,7 +1809,7 @@ iframe.instagram-media + script + :not([id]) {
 /* ---------------------------------------------------------- */
 
 html.dark-mode body {
-    color: rgba(255, 255, 255, 0.94);
+    color: rgba(255, 255, 255, 0.96);
     background: var(--color-darkmode);
 }
 
@@ -1981,7 +1981,7 @@ html.dark-mode .footer-cta-title {
 
 @media (prefers-color-scheme: dark) {
     html.auto-color body {
-        color: rgba(255, 255, 255, 0.94);
+        color: rgba(255, 255, 255, 0.96);
         background: var(--color-darkmode);
     }
     
@@ -2060,7 +2060,7 @@ html.dark-mode .footer-cta-title {
     }
     
     html.auto-color .no-image .author-social-link a {
-        color: rgba(255, 255, 255, 0.94);
+        color: rgba(255, 255, 255, 0.96);
     }
     
     html.auto-color .gh-content > [id] {
