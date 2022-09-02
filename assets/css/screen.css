@@ -1323,7 +1323,7 @@ except for when immediately preceeded by a heading */
 figcaption {
     padding: 1.5rem 1.5rem 0;
     text-align: center;
-    color: rgba(0,0,0,0.5);
+    color: rgba(0,0,0,0.6);
     font-size: 1.3rem;
     line-height: 1.4em;
 }
