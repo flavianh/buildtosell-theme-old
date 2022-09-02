@@ -1809,7 +1809,7 @@ iframe.instagram-media + script + :not([id]) {
 /* ---------------------------------------------------------- */
 
 html.dark-mode body {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.94);
     background: var(--color-darkmode);
 }
 
@@ -1981,7 +1981,7 @@ html.dark-mode .footer-cta-title {
 
 @media (prefers-color-scheme: dark) {
     html.auto-color body {
-        color: rgba(255, 255, 255, 0.75);
+        color: rgba(255, 255, 255, 0.94);
         background: var(--color-darkmode);
     }
     
@@ -2060,7 +2060,7 @@ html.dark-mode .footer-cta-title {
     }
     
     html.auto-color .no-image .author-social-link a {
-        color: rgba(255, 255, 255, 0.75);
+        color: rgba(255, 255, 255, 0.94);
     }
     
     html.auto-color .gh-content > [id] {
