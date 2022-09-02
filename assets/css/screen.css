@@ -193,6 +193,7 @@ body:not(.has-cover) .site-header-content:not(.left-aligned) {
     font-size: 2.4rem;
     font-weight: 500;
     line-height: 1.4;
+    text-shadow: 0 1px 1px hsl(173deg 15% 26% / 25%), 0 2px 2px hsl(173deg 15% 26% / 25%), 0 4px 4px hsl(173deg 15% 26% / 25%), 0 8px 8px hsl(173deg 15% 26% / 25%);
 }
 
 :is(.site-logo, .site-title) + .site-description {
@@ -303,6 +304,7 @@ body:not(.has-cover) .site-header-content:not(.left-aligned) {
     font-size: 3.6rem;
     letter-spacing: -0.02em;
     color: inherit;
+    text-shadow: 0 1px 1px hsl(173deg 15% 26% / 15%), 0 2px 2px hsl(173deg 15% 26% / 15%), 0 4px 4px hsl(173deg 15% 26% / 15%), 0 8px 8px hsl(173deg 15% 26% / 15%), 0 16px 16px hsl(173deg 15% 26% / 15%);
 }
 
 .gh-head-logo.no-image {
