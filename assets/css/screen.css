@@ -37,10 +37,11 @@ production stylesheet in assets/built/screen.css
     --color-darkgrey: #15171A;
     --color-midgrey: #738a94;
     --color-lightgrey: #f1f1f1;
-    --color-secondary-text: #979797;
+    --color-secondary-text: #5f5f5f;
     --color-border: #e1e1e1;
     --color-wash: #e5eff5;
     --color-darkmode: #151719;
+    --color-secondary-text-darkmode: #808080;
 
     /*
     An accent color is also set by Ghost itself in
@@ -120,7 +121,7 @@ production stylesheet in assets/built/screen.css
 .has-cover .site-header-content {
     min-height: 560px;
     background-color: var(--ghost-accent-color);
-    color: #fff;
+    color: var(--color-lightgrey);
 }
 
 body:not(.has-cover) .site-header-content:not(.left-aligned) {
@@ -1725,7 +1726,7 @@ iframe.instagram-media + script + :not([id]) {
     margin: max(12vmin, 64px) 0 0 0;
     padding-top: 48px;
     padding-bottom: 140px;
-    color: #fff;
+    color: var(--color-lightgrey);
     background: color-mod(var(--color-darkgrey) l(-5%));
 }
 
@@ -1738,7 +1739,7 @@ iframe.instagram-media + script + :not([id]) {
 }
 
 .site-footer .copyright a {
-    color: #fff;
+    color: var(--color-lightgrey);
     letter-spacing: -0.015em;
     font-weight: 500;
 }
@@ -1782,7 +1783,7 @@ iframe.instagram-media + script + :not([id]) {
     width: 2px;
     height: 2px;
     margin: 0 10px 0 0;
-    background: #fff;
+    background: var(--color-lightgrey);
     border-radius: 100%;
 }
 
@@ -1795,7 +1796,7 @@ iframe.instagram-media + script + :not([id]) {
     }
     .site-footer .copyright,
     .site-footer .copyright a {
-        color: #fff;
+        color: var(--color-lightgrey);
         font-size: 1.5rem;
     }
     .site-footer .copyright {
@@ -1821,20 +1822,20 @@ html.dark-mode kbd {
 }
 
 html.dark-mode figcaption a {
-    color: #fff;
+    color: var(--color-lightgrey);
 }
 
 html.dark-mode .gh-head {
     background: var(--color-darkmode);
-    color: #fff;
+    color: var(--color-lightgrey);
 }
 
 html.dark-mode .gh-burger-box {
-    color: #fff;
+    color: var(--color-lightgrey);
 }
 
 html.dark-mode .site-header-content {
-    color: #fff;
+    color: var(--color-lightgrey);
 }
 
 html.dark-mode .post-card-image {
@@ -1842,27 +1843,27 @@ html.dark-mode .post-card-image {
 }
 
 html.dark-mode :is(.post-card-tags, .post-card-meta, .article-tag a, .byline-meta-content) {
-    color: color-mod(var(--color-secondary-text) l(-22%));
+    color: var(--color-secondary-text-darkmode);
 }
 
 html.dark-mode .post-card-featured {
-    color: #fff;
+    color: #fdfdfd;
 }
 
 html.dark-mode .post-card-title {
-    color: #fff;
+    color: var(--color-lightgrey);
 }
 
 html.dark-mode .post-card-excerpt {
-    color: var(--color-secondary-text);
+    color: var(--color-lightgrey);
 }
 
 html.dark-mode .article-title {
-    color: #fff;
+    color: var(--color-lightgrey);
 }
 
 html.dark-mode .article-excerpt {
-    color: var(--color-secondary-text);
+    color: var(--color-lightgrey);
 }
 
 html.dark-mode .post-full-image {
@@ -1883,7 +1884,7 @@ html.dark-mode .author-profile-image path {
 }
 
 html.dark-mode .article-byline-meta .author-name a {
-    color: #fff;
+    color: var(--color-lightgrey);
 }
 
 html.dark-mode .no-image .author-social-link a {
@@ -1905,19 +1906,19 @@ html.dark-mode .gh-content :not(pre) > code {
 }
 
 html.dark-mode .gh-content a:not(.kg-btn):not(.kg-nft-card-container):not(.kg-product-card-button):not(.kg-header-card-button) {
-    color: #fff;
+    color: var(--color-lightgrey);
 }
 
 html.dark-mode .gh-content strong {
-    color: #fff;
+    color: var(--color-lightgrey);
 }
 
 html.dark-mode .gh-content em {
-    color: #fff;
+    color: var(--color-lightgrey);
 }
 
 html.dark-mode .gh-content code {
-    color: #fff;
+    color: var(--color-lightgrey);
     background: #000;
 }
 
@@ -1971,11 +1972,11 @@ html.dark-mode .kg-header-card.kg-style-light {
 
 html.dark-mode .kg-header-card h2.kg-header-card-header,
 html.dark-mode .kg-header-card h3.kg-header-card-subheader {
-    color: #fff;
+    color: var(--color-lightgrey);
 }
 
 html.dark-mode .footer-cta-title {
-    color: #fff;
+    color: var(--color-lightgrey);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1993,20 +1994,20 @@ html.dark-mode .footer-cta-title {
     }
     
     html.auto-color figcaption a {
-        color: #fff;
+        color: var(--color-lightgrey);
     }
     
     html.auto-color .gh-head {
         background: var(--color-darkmode);
-        color: #fff;
+        color: var(--color-lightgrey);
     }
     
     html.auto-color .gh-burger-box {
-        color: #fff;
+        color: var(--color-lightgrey);
     }
     
     html.auto-color .site-header-content {
-        color: #fff;
+        color: var(--color-lightgrey);
     }
     
     html.auto-color .post-card-image {
@@ -2014,27 +2015,27 @@ html.dark-mode .footer-cta-title {
     }
     
     html.auto-color :is(.post-card-tags, .post-card-meta, .article-tag a, .byline-meta-content) {
-        color: color-mod(var(--color-secondary-text) l(-22%));
+        color: var(--color-secondary-text-darkmode);
     }
     
     html.auto-color .post-card-featured {
-        color: #fff;
+        color: var(--color-lightgrey);
     }
     
     html.auto-color .post-card-title {
-        color: #fff;
+        color: var(--color-lightgrey);
     }
     
     html.auto-color .post-card-excerpt {
-        color: var(--color-secondary-text);
+        color: var(--color-lightgrey);
     }
     
     html.auto-color .article-title {
-        color: #fff;
+        color: var(--color-lightgrey);
     }
     
     html.auto-color .article-excerpt {
-        color: var(--color-secondary-text);
+        color: var(--color-lightgrey);
     }
     
     html.auto-color .post-full-image {
@@ -2055,7 +2056,7 @@ html.dark-mode .footer-cta-title {
     }
     
     html.auto-color .article-byline-meta .author-name a {
-        color: #fff;
+        color: var(--color-lightgrey);
     }
     
     html.auto-color .no-image .author-social-link a {
@@ -2077,20 +2078,20 @@ html.dark-mode .footer-cta-title {
     }
     
     html.auto-color .gh-content a:not(.kg-btn):not(.kg-nft-card-container):not(.kg-product-card-button):not(.kg-header-card-button) {
-        color: #fff;
+        color: var(--color-lightgrey);
     }
     
     html.auto-color .gh-content strong {
-        color: #fff;
+        color: var(--color-lightgrey);
     }
     
     html.auto-color .gh-content em {
-        color: #fff;
+        color: var(--color-lightgrey);
     }
     
     html.auto-color .gh-content code {
-        color: #fff;
-        background: #000;
+        color: var(--color-lightgrey);
+        background: var(--color-darkgrey);
     }
     
     html.auto-color hr {
@@ -2143,11 +2144,11 @@ html.dark-mode .footer-cta-title {
     
     html.auto-color .kg-header-card h2.kg-header-card-header,
     html.auto-color .kg-header-card h3.kg-header-card-subheader {
-        color: #fff;
+        color: var(--color-lightgrey);
     }
     
     html.auto-color .footer-cta-title {
-        color: #fff;
+        color: var(--color-lightgrey);
     }
 }
 
